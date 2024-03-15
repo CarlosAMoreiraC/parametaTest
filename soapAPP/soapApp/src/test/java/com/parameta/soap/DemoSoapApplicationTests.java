@@ -1,10 +1,10 @@
-package com.parameta.parametaTest;
+package com.parameta.soap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ParametaTestApplicationTests {
+class DemoSoapApplicationTests {
 
 	@Test
 	void contextLoads() {

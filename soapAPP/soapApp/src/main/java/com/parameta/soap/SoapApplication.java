@@ -1,13 +1,13 @@
-package com.parameta.parametaTest;
+package com.parameta.soap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ParametaTestApplication {
+public class SoapApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ParametaTestApplication.class, args);
+		SpringApplication.run(SoapApplication.class, args);
 	}
 
 }

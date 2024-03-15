@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: parametaTest
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: root
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+  h2:
+    console:
+      path: /h2-console
+      settings.trace: false
+      settings.web-allow-others: false
+      enabled: true
+
+flyway:
+  user: root
+  password: password
+  url: jdbc:h2:mem:testdb
+  locations: filesystem:db/migration
